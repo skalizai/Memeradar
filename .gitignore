@@ -1,0 +1,13 @@
+node_modules/
+.turbo/
+dist/
+coverage/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Recorded provider streams (can contain a lot of data); keep sample fixtures only
+fixtures/*.jsonl
+!fixtures/sample-*.jsonl

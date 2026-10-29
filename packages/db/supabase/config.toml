@@ -1,0 +1,12 @@
+# Minimal Supabase CLI config. Link to your hosted project with:
+#   pnpm dlx supabase link --project-ref <your-project-ref>
+# then apply migrations with `pnpm --filter @memeradar/db db:push`.
+project_id = "memeradar"
+
+[auth]
+site_url = "http://localhost:3000"
+# Sign-up is disabled: the single user account is created once in the Supabase dashboard.
+enable_signup = false
+
+[auth.email]
+enable_signup = false
